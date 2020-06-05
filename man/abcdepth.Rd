@@ -4,12 +4,14 @@
 \alias{abcdepth}
 \title{Calculate ABC depth of a point}
 \usage{
-abcdepth(data, point)
+abcdepth(data, point, quiet = TRUE)
 }
 \arguments{
 \item{data}{A matrix (or dataframe) with the data within which to calculate depth}
 
 \item{point}{The point for which to calculate the depth (make sure that ncol(data) == length(point))}
+
+\item{quiet}{Suppress java debug messages}
 }
 \value{
 The depth of the point within the given dataset.

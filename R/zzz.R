@@ -1,4 +1,5 @@
 #' @import rJava
+#' @import jdx
 NULL
 
 .onLoad <- function(libname, pkgname) {
